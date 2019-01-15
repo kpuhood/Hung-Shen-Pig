@@ -1,0 +1,115 @@
+$color_orange: #ff6e3a
+
+*
+  font-family: 微軟正黑體
+
+body
+  height: 1000px
+
+h1,h2,h3,h4,h5,h6
+  font-weight: bold
+  
+nav.navbar
+  transition: 0.5s
+  
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  background-color: transparent
+  a
+    color: white
+    font-size: 19px
+    transition: 0.5s
+    &:hover
+      color: $color_orange
+
+header.jumbotron
+  text-align: center
+  background-image: url(https://i.imgur.com/ddA7aoK.jpg)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  background-attachment: fixed
+  margin-bottom: 0px
+  .container
+    color: #F9A825
+    padding: 100px 0px
+  hr
+    max-width: 300px
+    border: solid 2px $color_orange
+  h2
+    color: white
+    font-weight: normal
+  
+section
+  padding: 50px 0px
+  
+section#section_ask
+  background-color: $color_orange
+  .col-sm-5.img
+    background-image: url(https://i.imgur.com/fEjuSWd.jpg)
+    background-size: cover
+    background-position: center
+    height: 400px
+    min-blend-mode: multiply
+  h2
+    margin-top: 130px
+    padding: 0px 20px
+    
+section#section_about
+  .img_wrap
+    height: 520px
+    background-size: cover
+    overflow: hidden
+  img
+    width: 100%
+    height: 100%
+    background-size: cover
+    background-position: center
+  .content 
+    margin-bottom: 80px
+section#section_story
+  background-color: #222
+  color: white
+  padding-bottom: 60px
+  .col-sm-5
+    background-image: url(https://i.imgur.com/ddA7aoK.jpg)
+    background-size: cover
+    height: 500px
+  .col-sm-7
+    text-align: center
+    i
+      font-size: 80px
+  .col-sm-12.features
+    margin-top: 40px
+    margin-bottom: 40px
+    
+section#section_future
+  img
+    width: 100%
+    height: 700px
+  i
+    font-size: 30px
+  .feature
+    padding-top: 10px
+    padding-bottom: 10px
+    
+    
+footer.jumbotron
+  text-align: center
+  background-image: url(http://v.wxrw123.com/?url=http://mmbiz.qpic.cn/mmbiz/5feXIiajDItf8T2YZoxCuVrhFMrVibfeZ8KGD7No9nL7bCUtpviblEmIia4okbL7aHqTNdGd4zWmcO83WfxVNZvibbg/0?wx_fmt=jpeg)
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  background-color: #546E7A
+  input
+    background-color: transparent
+    max-width: 350px
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+    
+  .container
+    color: white
+    padding: 60px 0px
+  hr
+    max-width: 50px
+    border: solid 2px $color_orange    

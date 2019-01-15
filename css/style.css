@@ -1,0 +1,141 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  font-size: 19px;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://i.imgur.com/ddA7aoK.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: #F9A825;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #ff6e3a;
+}
+header.jumbotron h2 {
+  color: white;
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #ff6e3a;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://i.imgur.com/fEjuSWd.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  min-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about .img_wrap {
+  height: 520px;
+  background-size: cover;
+  overflow: hidden;
+}
+section#section_about img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+section#section_about .content {
+  margin-bottom: 80px;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding-bottom: 60px;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://i.imgur.com/ddA7aoK.jpg);
+  background-size: cover;
+  height: 500px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 80px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section#section_future img {
+  width: 100%;
+  height: 700px;
+}
+section#section_future i {
+  font-size: 30px;
+}
+section#section_future .feature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(http://v.wxrw123.com/?url=http://mmbiz.qpic.cn/mmbiz/5feXIiajDItf8T2YZoxCuVrhFMrVibfeZ8KGD7No9nL7bCUtpviblEmIia4okbL7aHqTNdGd4zWmcO83WfxVNZvibbg/0?wx_fmt=jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  background-color: #546E7A;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
